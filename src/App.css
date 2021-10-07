@@ -16,6 +16,7 @@ header {
 #nav-wrapper {
   display: flex;
   justify-content: center;
+  padding: 0;
 
 }
 
@@ -42,6 +43,24 @@ li:hover {
   cursor: pointer;
 }
 
+#slideshow {
+  display: flex;
+  justify-content: center;
+}
+
+#carousel {
+  width: 75%;
+}
+
+.slide {
+  width: 100%;
+}
+
+.slide-image {
+  /* height: 100%;
+  width: 100%;  
+  position: relative; */
+}
 
 
 /* .App-header {
