@@ -1,4 +1,50 @@
-.App-header {
+#top {
+  display: flex;
+  justify-content: center;
+}
+
+header {
+  width: 75%;
+  background-color: white;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #FFAF03;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#nav-wrapper {
+  display: flex;
+  justify-content: center;
+
+}
+
+ul {
+  width: 75%;
+  font-size: 18px;
+  font-family: 'Bebas Neue', cursive;
+  list-style: none;
+  list-style-type: none;
+  overflow: hidden;
+  background-color: #FFAF03;
+  padding: 20px 0;
+}
+
+li {
+  display: block;
+  float: left;
+  padding: 0 20px;
+  color: white;
+}
+
+li:hover {
+  color: black;
+  cursor: pointer;
+}
+
+
+
+/* .App-header {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -7,4 +53,4 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
-}
+} */

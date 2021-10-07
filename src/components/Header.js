@@ -4,9 +4,11 @@ import Logo from '../assets/logo.jpg';
 const Header = () => {
 
     return (
-        <header>
-            <img src={Logo} alt='Logo'/>
-        </header>
+        <div id="top">
+            <header>
+                <img src={Logo} alt='Logo'/>
+            </header>
+        </div>
     )
 }
 

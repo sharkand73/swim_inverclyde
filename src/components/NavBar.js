@@ -3,7 +3,7 @@ import React from 'react';
 const NavBar = () => {
 
     return (
-        <div>
+        <div id="nav-wrapper">
             <ul>
                 <li>Swim Meet</li>
                 <li>News & Events</li>
