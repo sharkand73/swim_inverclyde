@@ -15,10 +15,14 @@ const Header = () => {
                     <img src={Logo} alt='Logo'/>
                 </Link>
                 <a className="twitter" href="https://twitter.com/SwimInverclyde">
-                    <img src={TwitterGrey} alt="Twitter" id="twitter-img" /> 
+                    <div id="twitter-img">
+                        {/* <img src={TwitterGrey} alt="Twitter" id="twitter-img" /> */}
+                    </div>
                 </a>
                 <a className="FB" href="https://www.facebook.com/InverclydeMastersSwimmingClub">
-                    <img src={FbGrey} alt="Twitter" id="FB-img"/>
+                    <div id="FB-img">
+                        {/* <img src={FbGrey} alt="Twitter" id="FB-img"/> */}
+                    </div>
                 </a>
             </header>
         </div>

@@ -5,6 +5,7 @@ body {
 }
 
 .link {
+  font-weight: bold;
   text-decoration: inherit;
   color: inherit;
 }
@@ -32,27 +33,37 @@ header {
 .twitter {
   position: absolute;
   right: 3%;
-  top: 13%;
+  top: 14%;
   width: 26px;
   height: 26px;
-  background-image: url('./assets/twitter_black.png');
+}
+
+#twitter-img {
+  width: 26px;
+  height: 26px;
+  background-image: url('./assets/twitter_grey.png');
 }
 
 #twitter-img:hover {
-  display: none;
+  background-image: url('./assets/twitter_black.png');
 }
 
 .FB {
   position: absolute;
-  right: 6%;
-  top: 13%;
+  right: 7%;
+  top: 14%;
   width: 26px;
   height: 26px;
-  background-image: url('./assets/FB_black.png');
+}
+
+#FB-img {
+  width: 26px;
+  height: 26px;
+  background-image: url('./assets/FB_grey.png');
 }
 
 #FB-img:hover {
-  visibility: hidden;
+  background-image: url('./assets/FB_black.png');
 }
 
 #nav-wrapper {

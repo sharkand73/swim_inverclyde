@@ -16,11 +16,31 @@ const NavBar = () => {
                         News & Events
                     </Link>
                 </li>
-                <li>Membership</li>
-                <li>Other Activities</li>
-                <li>About Us</li>
-                <li>Policies</li>
-                <li>Contact Us</li>
+                <li>
+                    <Link className="link" to="/membership">
+                        Membership
+                    </Link>
+                </li>
+                <li>
+                    <Link className="link" to="/other">
+                        Other Activities
+                    </Link>
+                </li>
+                <li>
+                    <Link className="link" to="/about">
+                        About Us
+                    </Link>
+                </li>
+                <li>
+                    <Link className="link" to="/policies">
+                        Policies
+                    </Link>
+                </li>
+                <li>
+                    <Link className="link" to="/contact">
+                        Contact Us
+                    </Link>
+                </li>
             </ul>
         </div>
     )
