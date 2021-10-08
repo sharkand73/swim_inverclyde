@@ -20,12 +20,39 @@ body {
 
 header {
   width: 75%;
+  position: relative;
   background-color: white;
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #FFAF03;
   padding-top: 20px;
   padding-bottom: 25px;
+}
+
+.twitter {
+  position: absolute;
+  right: 3%;
+  top: 13%;
+  width: 26px;
+  height: 26px;
+  background-image: url('./assets/twitter_black.png');
+}
+
+#twitter-img:hover {
+  display: none;
+}
+
+.FB {
+  position: absolute;
+  right: 6%;
+  top: 13%;
+  width: 26px;
+  height: 26px;
+  background-image: url('./assets/FB_black.png');
+}
+
+#FB-img:hover {
+  visibility: hidden;
 }
 
 #nav-wrapper {
