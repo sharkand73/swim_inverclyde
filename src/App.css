@@ -4,6 +4,15 @@ body {
   background-color: #fff;
 }
 
+.link {
+  text-decoration: inherit;
+  color: inherit;
+}
+
+.Link:visited {
+  color: inherit;
+}
+
 #top {
   display: flex;
   justify-content: center;
