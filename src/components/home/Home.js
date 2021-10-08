@@ -12,7 +12,7 @@ const Slider = withAutoplay(AwesomeSlider);
 const Home = () => {
 
     return (
-        <div id="slideshow">
+        <div className="container">
             <div id = "carousel">
                 <Slider
                 play
@@ -30,6 +30,15 @@ const Home = () => {
                         <img className="slide-image" src={Slide3} alt='Slide 3' />
                     </div>
                 </Slider>
+                <div className="slideshow-footer">
+                    <div></div>
+                </div>
+                <div id="founded">
+                    <p>
+                        Inverclyde Masters Swim Club was created in 1995 out of a number of adults who had swum and trained on a regular basis over a number of years, prior to 
+                        that date, with our present Coach Donald Muirhead.
+                    </p>
+                </div>
             </div>
         </div>
     )

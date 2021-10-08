@@ -97,10 +97,9 @@ li:hover {
   cursor: pointer;
 }
 
-#slideshow {
+.container {
   display: flex;
   justify-content: center;
-  height: 410px;
 }
 
 #carousel {
@@ -115,6 +114,36 @@ li:hover {
 
 .image-item {
   width: 100%;  
+}
+
+.slideshow-footer {
+  display: flex;
+  justify-content: center;
+  height: 62px;
+  background-color: white;
+}
+
+.slideshow-footer > div {
+  width: 95%;
+  border-bottom-width: 3px;
+  border-bottom-style: solid;
+  border-bottom-color: #eee;
+}
+
+#founded {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 13px;
+  font-style: italic;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#founded > p {
+  width: 95%;
+  margin: 30 0 0 0;
+  line-height: 22px;
+  text-align: center;
 }
 
 /* .grey {
