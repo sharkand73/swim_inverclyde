@@ -4,8 +4,7 @@ import { Link } from 'react-router-dom';
 const NavBar = () => {
 
     return (
-        <div id="nav-wrapper">
-            <ul>
+            <ul id="nav">
                 <li>
                     <Link className="link" to="/swim-meet">
                         Swim Meet
@@ -42,7 +41,6 @@ const NavBar = () => {
                     </Link>
                 </li>
             </ul>
-        </div>
     )
 }
 

@@ -4,6 +4,52 @@ body {
   background-color: #fff;
 }
 
+.container {
+  padding-left: 12.5%;
+  padding-right: 12.5%; 
+}
+
+header {
+  position: relative;
+  background-color: white;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #FFAF03;
+  padding-top: 20px;
+  padding-bottom: 25px;
+}
+
+ul {
+  font-size: 18px;
+  font-family: 'Bebas Neue', cursive;
+  list-style: none;
+  list-style-type: none;
+  overflow: hidden;
+  background-color: #FFAF03;
+  padding: 20px 0;
+  margin: 0;
+}
+
+#carousel {
+  height: 410px;
+}
+
+#slideshow-footer {
+  padding-left: 2.5%;
+  padding-right: 2.5%;
+  height: 65px;
+  background-color: white;
+}
+
+#founded {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 13px;
+  font-style: italic;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
 .link {
   font-weight: bold;
   text-decoration: inherit;
@@ -12,22 +58,6 @@ body {
 
 .Link:visited {
   color: inherit;
-}
-
-#top {
-  display: flex;
-  justify-content: center;
-}
-
-header {
-  width: 75%;
-  position: relative;
-  background-color: white;
-  border-top-style: solid;
-  border-top-width: 2px;
-  border-top-color: #FFAF03;
-  padding-top: 20px;
-  padding-bottom: 25px;
 }
 
 .twitter {
@@ -66,25 +96,6 @@ header {
   background-image: url('./assets/FB_black.png');
 }
 
-#nav-wrapper {
-  display: flex;
-  justify-content: center;
-  padding: 0;
-
-}
-
-ul {
-  width: 75%;
-  font-size: 18px;
-  font-family: 'Bebas Neue', cursive;
-  list-style: none;
-  list-style-type: none;
-  overflow: hidden;
-  background-color: #FFAF03;
-  padding: 20px 0;
-  margin: 0;
-}
-
 li {
   display: block;
   float: left;
@@ -97,16 +108,6 @@ li:hover {
   cursor: pointer;
 }
 
-.container {
-  display: flex;
-  justify-content: center;
-}
-
-#carousel {
-  width: 75%;
-  height: 410px;
-}
-
 .slide {
   width: 100%;
   padding: 0;
@@ -116,27 +117,11 @@ li:hover {
   width: 100%;  
 }
 
-.slideshow-footer {
-  display: flex;
-  justify-content: center;
-  height: 62px;
-  background-color: white;
-}
-
-.slideshow-footer > div {
-  width: 95%;
+#slideshow-footer > div {
+  height: 65px;
   border-bottom-width: 3px;
   border-bottom-style: solid;
   border-bottom-color: #eee;
-}
-
-#founded {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  font-size: 13px;
-  font-style: italic;
-  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 #founded > p {

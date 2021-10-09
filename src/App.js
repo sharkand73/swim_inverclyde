@@ -16,20 +16,22 @@ import Contact from './components/Contact';
 
 function App() {
   return (  
-    <Router>
-      <Header />
-      <NavBar />
-        <Switch>
-          <Route exact path = '/' component = {Home} />
-          <Route path = '/swim-meet' component = {SwimMeet} />
-          <Route path = '/news' component = {News} />
-          <Route path = '/membership' component = {Membership} />
-          <Route path = '/about' component = {About} />
-          <Route path = '/other' component = {Other} />
-          <Route path = '/policies' component = {Policies} />
-          <Route path = '/contact' component = {Contact} />
-        </Switch>
-      </Router>
+    <div className="container">
+      <Router>
+        <Header />
+        <NavBar />
+          <Switch>
+            <Route exact path = '/' component = {Home} />
+            <Route path = '/swim-meet' component = {SwimMeet} />
+            <Route path = '/news' component = {News} />
+            <Route path = '/membership' component = {Membership} />
+            <Route path = '/about' component = {About} />
+            <Route path = '/other' component = {Other} />
+            <Route path = '/policies' component = {Policies} />
+            <Route path = '/contact' component = {Contact} />
+          </Switch>
+        </Router>
+      </div>
   );
 }
 

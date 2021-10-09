@@ -1,15 +1,10 @@
 import React from 'react';
 import Logo from '../assets/logo.jpg';
-import FbGrey from '../assets/FB_grey.png';
-import FbBlack from '../assets/FB_black.png';
-import TwitterGrey from '../assets/twitter_grey.png';
-import TwitterBlack from '../assets/twitter_black.png';
 import { Link } from 'react-router-dom';
 
 const Header = () => {
 
     return (
-        <div id="top">
             <header>
                 <Link className="link" to="/">
                     <img src={Logo} alt='Logo'/>
@@ -25,7 +20,6 @@ const Header = () => {
                     </div>
                 </a>
             </header>
-        </div>
     )
 }
 
