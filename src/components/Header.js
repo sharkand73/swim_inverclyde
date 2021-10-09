@@ -5,18 +5,18 @@ import { Link } from 'react-router-dom';
 const Header = () => {
 
     return (
-            <header>
+            <header id="main-header">
                 <Link className="link" to="/">
-                    <img src={Logo} alt='Logo'/>
+                    <img src={Logo} alt="Logo" id ="logo"/>
                 </Link>
                 <a className="twitter" href="https://twitter.com/SwimInverclyde">
                     <div id="twitter-img">
-                        {/* <img src={TwitterGrey} alt="Twitter" id="twitter-img" /> */}
+                        {/* Hover trick using background image */}
                     </div>
                 </a>
                 <a className="FB" href="https://www.facebook.com/InverclydeMastersSwimmingClub">
                     <div id="FB-img">
-                        {/* <img src={FbGrey} alt="Twitter" id="FB-img"/> */}
+                        {/* Hover trick using background image */}
                     </div>
                 </a>
             </header>
