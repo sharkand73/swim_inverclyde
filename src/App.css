@@ -235,6 +235,7 @@ h1 {
   margin-right: 2.3%;
   font-family: 'Bebas Neue', cursive;
   color: #2a2D32;
+  padding-bottom: 30px;
 }
 
 .main-section > header {
@@ -246,6 +247,7 @@ h1 {
 .main-section > ul {
   list-style: none;
   padding-left: 0;
+  padding-bottom: 30px;
 }
 
 .main-section > ul > li {
@@ -258,6 +260,13 @@ h1 {
 .main-section > ul > li:hover {
   text-decoration: underline;
   cursor: pointer;
+}
+
+.main-section > footer {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 13px;
+  font-style: italic;
+  font-weight: bold;
 }
 
 
@@ -275,6 +284,10 @@ h1 {
 }
 
 @media only screen and (max-width: 700px) {
+
+  #main-header {
+    padding: 12px 2.3% 12px 2.3%;
+  }
   .twitter {
     position: absolute;
     right: 3%;
@@ -306,6 +319,10 @@ h1 {
     flex-wrap: wrap;
     align-content: space-around;
     justify-content: flex-start;
+  }
+
+  #logo {
+    width: 45%;
   }
 
 }
