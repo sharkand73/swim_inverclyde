@@ -252,14 +252,14 @@ h1 {
   padding-bottom: 30px;
 }
 
-.main-section > ul > li {
+.main-section li {
   padding-top: 20px;
   font-size: 13px;
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-style: italic;
 }
 
-.main-section > ul > li:hover {
+.main-section li:hover {
   text-decoration: underline;
   cursor: pointer;
 }
@@ -271,24 +271,24 @@ h1 {
   font-weight: bold;
 }
 
-#two-column {
+.two-column {
   display: flex;
   justify-content: space-between;
 }
 
-#two-column h3 {
+h3 {
   font-family: 'Bebas Neue', cursive;
   font-size: 22px;
   color:#2a2D32;
   margin: 0;
 }
 
-#two-column > div{
+.two-column > div{
   width: 47%;
   padding-right: 30px;
 }
 
-#two-column p {
+.two-column p {
   font-size: 13px;
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-style: italic;
@@ -297,13 +297,29 @@ h1 {
   margin: 0;
 }
 
-#two-column h4 {
+.two-column h4 {
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-style: italic;
   font-size: 13px;
   margin: 0;
   color: #555;
 }
+
+.two-column ul {
+  margin-top: 0;
+}
+
+td {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 13px;
+  padding: 3px 20px 1px 1px;
+}
+
+#policies {
+  padding-bottom: 0;
+}
+
+
 
 
 
@@ -363,11 +379,11 @@ h1 {
     width: 45%;
   }
 
-  #two-column {
+  .two-column {
     display: inline;
   }
 
-  #two-column > div {
+  .two-column > div {
     width: 100%;
   }
 

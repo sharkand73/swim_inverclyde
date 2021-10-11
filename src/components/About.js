@@ -8,7 +8,7 @@ const About = () => {
                 <header>
                     <h1>ABOUT US</h1>
                 </header>
-                <div id="two-column">
+                <div className="two-column">
                     <div>
                         <h3>
                             THE CLUB
