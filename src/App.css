@@ -319,6 +319,28 @@ td {
   padding-bottom: 0;
 }
 
+#join-us {
+  font-size: 25px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-style: italic;
+  line-height: 21px;
+  padding-bottom: 21px;
+  margin: 0;
+}
+
+#join-us > .link:hover {
+  text-decoration: underline;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
 
 
 
