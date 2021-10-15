@@ -80,13 +80,19 @@ const Policies = ({data}) => {
                         </p>
                         <ul>
                             <li>
-                            Inverclyde Masters Constitution
+                                <a href={data.baseURL+data.documents.constitution}>
+                                    Inverclyde Masters Constitution
+                                </a>
                             </li>
                             <li>
-                            Privacy Policy
+                                <a href={data.baseURL+data.documents.privacy}>
+                                    Privacy Policy
+                                </a>
                             </li>
                             <li>
-                            Child Protection Policy Statement
+                                <a href={data.baseURL+data.documents.childProtection}>
+                                    Child Protection Policy Statement
+                                </a>
                             </li>
                         </ul>
                     </div>
