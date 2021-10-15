@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Policies = () => {
+const Policies = ({data}) => {
 
     return (
         <>
@@ -18,7 +18,7 @@ const Policies = () => {
                                         President:
                                     </td>
                                     <td>
-                                        Tommy Sharkey
+                                        {data.committee.president}
                                     </td>
                                 </tr>
                                 <tr>
@@ -26,7 +26,7 @@ const Policies = () => {
                                         Vice-president:
                                     </td>
                                     <td>
-                                        Marian Monk
+                                        {data.committee.vicePresident}
                                     </td>
                                 </tr>
                                 <tr>
@@ -34,7 +34,7 @@ const Policies = () => {
                                         Past President:
                                     </td>
                                     <td>
-                                        Gerard Malone
+                                        {data.committee.pastPresident}
                                     </td>
                                 </tr>
                                 <tr>
@@ -42,7 +42,7 @@ const Policies = () => {
                                         Secretary:
                                     </td>
                                     <td>
-                                        Dorothy McMenemie
+                                        {data.committee.secretary}
                                     </td>
                                 </tr>
                                 <tr>
@@ -50,7 +50,7 @@ const Policies = () => {
                                         Treasurer:
                                     </td>
                                     <td>
-                                        Morag Love
+                                        {data.committee.treasurer}
                                     </td>
                                 </tr>
                                 <tr>
@@ -58,7 +58,7 @@ const Policies = () => {
                                         Press Officer:
                                     </td>
                                     <td>
-                                        TBC
+                                        {data.committee.pressOfficer}
                                     </td>
                                 </tr>
                                 <tr>
@@ -66,7 +66,7 @@ const Policies = () => {
                                         Coach:
                                     </td>
                                     <td>
-                                        Donald Muirhead
+                                        {data.committee.coach}
                                     </td>
                                 </tr>
                             </tbody>

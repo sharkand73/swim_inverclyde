@@ -39,11 +39,13 @@ function App() {
             <Route path = '/swim-meet' component = {SwimMeet} />
             <Route path = '/news' component = {News} />
             <Route path = '/membership'>
-              <Membership data={data}/>
+              <Membership data={data} />
             </Route> 
             <Route path = '/about' component = {About} />
             <Route path = '/other' component = {Other} />
-            <Route path = '/policies' component = {Policies} />
+            <Route path = '/policies'>
+              <Policies data={data} />
+            </Route>
             <Route path = '/contact' component = {Contact} />
           </Switch>
         </Router>
