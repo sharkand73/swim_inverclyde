@@ -12,6 +12,7 @@ import Other from './components/Other';
 import About from './components/About';
 import Policies from './components/Policies';
 import Contact from './components/Contact';
+import Results from './components/Results';
 
 
 function App() {
@@ -36,7 +37,9 @@ function App() {
         <NavBar />
           <Switch>
             <Route exact path = '/' component = {Home} />
-            <Route path = '/swim-meet' component = {SwimMeet} />
+            <Route path = '/swim-meet'>
+              <SwimMeet data={data} />
+            </Route>
             <Route path = '/news' component = {News} />
             <Route path = '/membership'>
               <Membership data={data} />
@@ -47,6 +50,9 @@ function App() {
               <Policies data={data} />
             </Route>
             <Route path = '/contact' component = {Contact} />
+            <Route path = '/results'>
+              <Results data={data} />
+            </Route>
           </Switch>
         </Router>
       </div>

@@ -5,7 +5,7 @@ import Results from '../assets/results-home.jpg';
 import Gala from '../assets/gala.jpg';
 import EntryForm from '../assets/entryform.jpg';
 
-const SwimMeet = () => {
+const SwimMeet = ({data}) => {
 
     return (
         <>
@@ -16,7 +16,7 @@ const SwimMeet = () => {
             <ul className="meet-menu">
                 <li>
                     <div>
-                        <Link to="/swim-meet" className="link">
+                        <Link to="/results" className="link">
                             <img src={Results} alt="Results" />
                             <p>
                                 RESULTS
