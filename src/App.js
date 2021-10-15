@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState, useEffect} from 'react';
 import './App.css';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 
@@ -15,6 +15,20 @@ import Contact from './components/Contact';
 
 
 function App() {
+  const [data, setData] = useState(null);
+
+  useEffect(() => { 
+    fetch('https://swim-inverclyde-default-rtdb.europe-west1.firebasedatabase.app/.json')
+    .then(results => results.json())
+    .then(info => setData(info))
+  }, []);
+
+  if (!data) {
+    return (
+      <h1>Loading...</h1>
+    )
+  }
+
   return (  
     <div className="container">
       <Router>
