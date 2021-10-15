@@ -38,7 +38,9 @@ function App() {
             <Route exact path = '/' component = {Home} />
             <Route path = '/swim-meet' component = {SwimMeet} />
             <Route path = '/news' component = {News} />
-            <Route path = '/membership' component = {Membership} />
+            <Route path = '/membership'>
+              <Membership data={data}/>
+            </Route> 
             <Route path = '/about' component = {About} />
             <Route path = '/other' component = {Other} />
             <Route path = '/policies' component = {Policies} />

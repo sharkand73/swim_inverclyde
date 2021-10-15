@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Membership = () => {
+const Membership = ({data}) => {
 
     return (
         <>
@@ -9,10 +9,24 @@ const Membership = () => {
                     <h1>MEMBERSHIP</h1>
                 </header>
                 <ul>
-                    <li>Annual Club Fees</li>
-                    <li>Membership Application Form</li>
-                    <li>Mandate Form</li>
-                    <li>Club Structure</li>
+                    <li>
+                        Annual Club Fees
+                    </li>
+                    <li>
+                        <a href={data.baseURL+data.documents.membershipForm}>
+                            Membership Application Form
+                        </a>
+                    </li>
+                    <li>
+                        <a href={data.baseURL+data.documents.mandateForm}>
+                            Mandate Form
+                        </a>
+                    </li>
+                    <li>
+                        <a href={data.baseURL+data.documents.clubStructure}>
+                            Club Structure
+                        </a>
+                    </li>
                 </ul>
             </div>
 
