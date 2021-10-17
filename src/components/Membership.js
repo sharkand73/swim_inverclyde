@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Membership = ({data}) => {
 
@@ -10,7 +11,9 @@ const Membership = ({data}) => {
                 </header>
                 <ul>
                     <li>
-                        Annual Club Fees
+                        <Link to='/fees'>
+                            Annual Club Fees
+                        </Link>
                     </li>
                     <li>
                         <a href={data.baseURL+data.documents.membershipForm}>

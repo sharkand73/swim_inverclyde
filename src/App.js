@@ -13,7 +13,7 @@ import About from './components/About';
 import Policies from './components/Policies';
 import Contact from './components/Contact';
 import Results from './components/Results';
-
+import Fees from './components/Fees';
 
 function App() {
   const [data, setData] = useState(null);
@@ -52,6 +52,9 @@ function App() {
             <Route path = '/contact' component = {Contact} />
             <Route path = '/results'>
               <Results data={data} />
+            </Route>
+            <Route path = '/fees'>
+              <Fees data={data} />
             </Route>
           </Switch>
         </Router>
