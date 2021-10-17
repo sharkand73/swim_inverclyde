@@ -5,14 +5,11 @@ body {
   background-repeat: repeat-x;
 }
 
-
-
 .container {
   margin-left: 8%;
   margin-right: 8%; 
   background-color: white;
 }
-
 
 #main-header {
   position: relative;
@@ -312,7 +309,7 @@ h3 {
   margin-top: 0;
 }
 
-td {
+#committee td {
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-size: 13px;
   padding: 3px 20px 1px 1px;
@@ -384,7 +381,9 @@ a:hover {
 .row > a:hover {
   text-decoration: none;
 }
-
+ #fees {
+   width: 90%;
+ }
 
 
 

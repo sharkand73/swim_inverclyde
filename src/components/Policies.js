@@ -11,7 +11,7 @@ const Policies = ({data}) => {
                 <div className="two-column">
                     <div>
                         <h3>COMMITTEE</h3>
-                        <table>
+                        <table id="committee">
                             <tbody>
                                 <tr>
                                     <td>
