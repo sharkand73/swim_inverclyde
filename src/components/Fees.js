@@ -17,10 +17,10 @@ const Fees = ({data}) => {
                 <td>{row.number}</td>
                 <td>{row.category}</td>
                 <td>{row.payment}</td>
-                <td>{row.yearly && `£${row.yearly}`}</td>
-                <td>{row.discounted && `£${row.discounted}`}</td>
-                <td>{monthly && `£${monthly}`}</td>
-                <td>£{session}</td> 
+                <td className='money'>{row.yearly && `£${row.yearly}`}</td>
+                <td className='money'>{row.discounted && `£${row.discounted}`}</td>
+                <td className='money'>{monthly && `£${monthly}`}</td>
+                <td className='money'>£{session}</td> 
             </tr>
         )
     })
@@ -33,18 +33,24 @@ const Fees = ({data}) => {
                 </header>
                 <table id="fees">
                     <thead>
-                        <th>CATEGORY</th>
-                        <th>DESCRIPTION</th>
-                        <th>PAYMENT METHOD</th>
-                        <th>YEARLY FEE</th>
-                        <th>DISCOUNTED YEARLY FEE</th>
-                        <th>MONTHLY D/D</th>
-                        <th>COST PER SESSION</th>
+                        <tr>
+                            <th>CATEGORY</th>
+                            <th>DESCRIPTION</th>
+                            <th>PAYMENT METHOD</th>
+                            <th>YEARLY FEE</th>
+                            <th>DISCOUNTED YEARLY FEE*</th>
+                            <th>MONTHLY D/D</th>
+                            <th>COST PER SESSION**</th>
+                        </tr>
                     </thead>
                     <tbody>
                         {tableRows}
                     </tbody>
                 </table>
+                <p>
+                    * The discount is for a one-off annual payment.
+                </p>
+                <p>** In categories two and four, the cost per session is calculated based on four sessions per week.</p>
             </div>
 
         </>
