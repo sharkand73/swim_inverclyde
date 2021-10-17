@@ -490,6 +490,10 @@ a:hover {
   #join-us {
     font-size: 18px;
   }
+
+  #blog {
+    width: 90%;
+  }
 }
 
 
