@@ -5,7 +5,7 @@ const Fees = ({data}) => {
         let monthly, session;
         if (row.yearly) {
             monthly = Math.round(row.yearly * 100 / 12) / 100;
-            session = Math.round(row.yearly * 100  / 52) / 100;       
+            session = Math.round(row.yearly * 100  / 52 / row.perWeek) / 100;       
         }
         else {
             session = row.session;
@@ -19,7 +19,7 @@ const Fees = ({data}) => {
                 <td>{row.payment}</td>
                 <td>{row.yearly && `£${row.yearly}`}</td>
                 <td>{row.discounted && `£${row.discounted}`}</td>
-                <td>£{monthly}</td>
+                <td>{monthly && `£${monthly}`}</td>
                 <td>£{session}</td> 
             </tr>
         )
