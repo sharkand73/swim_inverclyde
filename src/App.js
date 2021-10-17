@@ -40,7 +40,9 @@ function App() {
             <Route path = '/swim-meet'>
               <SwimMeet data={data} />
             </Route>
-            <Route path = '/news' component = {News} />
+            <Route path = '/news'>
+              <News blog={data.blog} />
+            </Route>
             <Route path = '/membership'>
               <Membership data={data} />
             </Route> 

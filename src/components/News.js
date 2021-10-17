@@ -1,6 +1,19 @@
 import React from 'react';
 
-const News = () => {
+const News = ({blog}) => {
+
+    const blogItems = blog.map((item, index) => {
+        return (
+            <section className="blog-item" key={index}>
+                    <h2 className="title">
+                        {item.title}
+                    </h2>
+                    <h4 className="date">
+                        {item.date}
+                    </h4>
+                </section>
+        )
+    });
 
     return (
         <>
@@ -10,33 +23,7 @@ const News = () => {
                         BLOG
                     </h1>
                 </header>
-                
-                <section className="blog-item">
-                    <h2 className="title">
-                        GOUROCK POOL CLOSURE
-                    </h2>
-                    <h4 className="date">
-                        Monday 13th September 2021
-                    </h4>
-                </section>
-
-                <section className="blog-item">
-                    <h2 className="title">
-                        TOMMY IS A JOBBY
-                    </h2>
-                    <h4 className="date">
-                        Sunday 7th February 2021
-                    </h4>
-                </section>
-
-                <section className="blog-item">
-                    <h2 className="title">
-                        SWIM MEET CANCELLED
-                    </h2>
-                    <h4 className="date">
-                        Friday 19th June 2020
-                    </h4>
-                </section>
+                {blogItems}
             </div>
         </>
     )
