@@ -14,6 +14,7 @@ import Policies from './components/Policies';
 import Contact from './components/Contact';
 import Results from './components/Results';
 import Fees from './components/Fees';
+import SwimMeetInfo from './components/SwimMeetInfo';
 
 function App() {
   const [data, setData] = useState(null);
@@ -57,6 +58,9 @@ function App() {
             </Route>
             <Route path = '/fees'>
               <Fees data={data} />
+            </Route>
+            <Route path = '/swim-meet-info'>
+              <SwimMeetInfo />
             </Route>
           </Switch>
         </Router>

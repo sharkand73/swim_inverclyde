@@ -171,6 +171,7 @@ h1 {
 
 .meet-menu > li {
   max-width: 284px; 
+  padding-bottom: 40px;
 }
 
 .meet-menu li > div {
@@ -196,6 +197,11 @@ h1 {
 
 .meet-menu > li > div img {
   max-width: 284px;
+}
+
+#swim-meet-info {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 18px;
 }
 
 #blog {
@@ -422,7 +428,13 @@ a:hover {
    padding-left: 50%;
  }
 
+#contact {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
 
+#contact td {
+  padding-right: 30px;
+}
 
 
 
@@ -488,7 +500,9 @@ a:hover {
   }
 
   #join-us {
+    font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 18px;
+    font-style: normal;
   }
 
   #blog {

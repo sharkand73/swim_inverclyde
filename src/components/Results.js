@@ -4,10 +4,7 @@ import Cake from '../assets/cake.jpg';
 
 
 const Results = ({data}) => {
-    //const numberOfRows = data.meetYears;
-    console.log(data.results["2019"].champs)
-    const numberOfRows = 6;
-
+    
     const row = (year) => {
         const parity=parseInt(year)%2?"odd":"even";
         return(

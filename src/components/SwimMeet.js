@@ -29,7 +29,7 @@ const SwimMeet = ({data}) => {
                 </li>
                 <li>
                     <div>
-                        <Link to="/swim-meet" className="link">
+                        <Link to="/swim-meet-info" className="link">
                             <img src={Gala} alt="Swim Meet" /> 
                             <p>
                                 SWIM MEET
@@ -42,12 +42,12 @@ const SwimMeet = ({data}) => {
                 </li>
                 <li>
                     <div>
-                        <Link to="/swim-meet" className="link">
+                        <a href="https://www.im-swim.co.uk/" className="link">
                             <img src={EntryForm} alt="Entry Form" />
                             <p>
                                 ENTER NOW
                             </p>
-                        </Link>
+                        </a>
                     </div>
                     <p>
                     Due to Coronavirus the 2020 Swim Meet is cancelled – information on 2021 to be advised at a later date...

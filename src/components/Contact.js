@@ -16,7 +16,7 @@ const Contact = () => {
                 <h3>
                     EXECUTIVE COMMITTEE
                 </h3>
-                <table>
+                <table id='contact'>
                             <tbody>
                                 <tr>
                                     <td>
