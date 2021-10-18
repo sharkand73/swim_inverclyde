@@ -222,8 +222,7 @@ h1 {
   border-top-width: 3px;
   border-top-style: solid;
   border-top-color: #eee;
-  padding-left: 15px;
-  padding-bottom: 20px;
+  padding: 0 15px 20px 15px;
 }
 
 .blog-item:hover {
@@ -340,9 +339,9 @@ h3 {
 }
 
 #join-us {
-  font-size: 25px;
+  font-size: 22px;
   font-family: Georgia, 'Times New Roman', Times, serif;
-  font-style: italic;
+  font-style: normal;
   padding-bottom: 21px;
   margin: 0;
 }
